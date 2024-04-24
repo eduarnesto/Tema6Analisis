@@ -1,0 +1,33 @@
+Contacto
+	-nombre: String
+	-telefono: int
+	
+	+equals(): int
+	
+	+Contacto(String nombre, int telefono)
+	
+	+getNombre(): String
+	+getTelefono(): int
+	+setTelefono(int telefono)
+	
+Persona extends Contacto
+	-cumpleanyos: String
+	
+	+Persona (String nombre, int telefono, String cumpleanyos)
+	+getCumpleanyos(): String
+	
+	Heredados:
+		+getNombre(): String
+		+getTelefono(): int
+		+setTelefono(int telefono)
+		
+Empresa extends Contacto
+	-paginaWeb: String
+	
+	+Empresa (String nombre, int telefono, String paginaWeb)
+	+getPaginaWeb(): String
+	
+	Heredados:
+		+getNombre(): String
+		+getTelefono(): int
+		+setTelefono(int telefono)
